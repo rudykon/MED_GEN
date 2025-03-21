@@ -27,6 +27,8 @@ SFT数据集、DPO数据集和EVAL数据集的比例是7:2:1。比较特殊的�
 体检报告结论生成之后，需要对结论文本进行评估。ROUGE(Recall-Oriented Understudy for Gisting Evaluation) 是另一种在机器翻译和文本摘要评估中广泛使用的指标。ROUGE 侧重于召回率，即强调文本信息的覆盖度和完整性。具体来说，ROUGE-𝑛 通过计算 𝑛元组上的召回率来评估候选文本的质量。
 除了ROUGE-n之外，ROUGE还有一个重要的变种是ROUGE-L。ROUGE-L中的“L”代表最长公共子序列LCS (Longest Common Subsequence)，这是一种衡量两个序列相似性的方法。它可以不要求词组在文本中连续出现，因此能够更灵活地捕捉文本间的相似性。与基于 元组的ROUGE- 指标不同，ROUGE-L不是简单地计算固定长度的词组匹配，而是寻找候选文本和参考文本之间的最长公共子序列。ROUGE-L以F1分数计算，结合了精确率和召回率的信息。精确率衡量了候选文本中有多少内容是与参考文本相关的，而召回率则衡量了参考文本中有多少内容被候选文本所覆盖。
 
+![image](https://github.com/user-attachments/assets/909870b4-5062-4b34-938a-55710e48049f)
+
 
 # 结果分析
 待补充
